@@ -1,8 +1,16 @@
-// Q9 Write a method that checks if any student in the list is 21 years or older
-// but still listed as a "Sophomore." If such a student exists, return the student's name.
+/**
+ * @description       : 
+ * @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+ * @group             : 
+ * @last modified on  : 10-03-2024
+ * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+**/
+public with sharing class CheckStuGrade {
+    public CheckStuGrade() {
 
-public class CheckStuGrade {
-public static String cal(){
+    }
+    
+	public static String cal(){
         List<String> students = new List<String>();
         students.add('John Doe, 20, Sophomore, Computer Science');
         students.add('Emily Smith, 19, Freshman, Biology');

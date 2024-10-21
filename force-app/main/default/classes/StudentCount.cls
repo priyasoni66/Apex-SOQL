@@ -1,6 +1,15 @@
-// Q5 Write a method that counts how many students belong to the "Sophomore" grade and returns that number.
+/**
+ * @description       : 
+ * @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+ * @group             : 
+ * @last modified on  : 10-03-2024
+ * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+**/
+public with sharing class StudentCount {
+    public StudentCount() {
 
-public class StudentCount {
+    }
+    
     public static Integer cal(){
         List<String> students = new List<String>();
         students.add('John Doe, 20, Sophomore, Computer Science');

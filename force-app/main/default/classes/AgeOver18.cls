@@ -1,6 +1,15 @@
-// Write a method that checks if all students in the list are over the age of 18.
+/**
+ * @description       : 
+ * @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+ * @group             : 
+ * @last modified on  : 10-03-2024
+ * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+**/
+public with sharing class AgeOver18 {
+    public AgeOver18() {
 
-public class AgeOver18 {
+    }
+
     public static Boolean cal() {
         List<String> students = new List<String>();
         students.add('John Doe, 20, Sophomore, Computer Science');

@@ -1,6 +1,19 @@
-// Q1
+/**
+ * @description       : 
+ * @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+ * @group             : 
+ * @last modified on  : 10-03-2024
+ * @last modified by  : Priya Soni
+ **/
 
-public class StudentInfo {
+public with sharing class StudentInfo {
+    
+    // Constructor
+    public StudentInfo() {
+        //test
+    }
+
+    // Static method to calculate seniors
     public static List<String> cal() {
         List<String> list1 = new List<String>();
         list1.add('John Doe, 20, Sophomore, Computer Science');
@@ -26,10 +39,11 @@ public class StudentInfo {
         return seniors;
     }
 
-    public static void main() {
-        List<String> student = cal();
-        for (String i : student) {
-            System.debug(i);
+    // Method to call and debug the senior students
+    public static void printSeniorStudents() {
+        List<String> seniorStudents = cal();
+        for (String student : seniorStudents) {
+            System.debug(student);
         }
     }
 }

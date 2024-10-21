@@ -1,6 +1,15 @@
-// Q6 Write a method that returns a new list containing only students in the "Freshman" grade.
+/**
+ * @description       : 
+ * @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+ * @group             : 
+ * @last modified on  : 10-03-2024
+ * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+**/
+public with sharing class FreshManStudents {
+    public FreshManStudents() {
 
-public class FreshmanStudents {
+    }
+    
 	public static list<String> cal(){
         List<String> students = new List<String>();
         students.add('John Doe, 20, Sophomore, Computer Science');

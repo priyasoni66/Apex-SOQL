@@ -1,7 +1,15 @@
-// Q10 Write a method that returns a list of "Senior" students 
-// who are majoring in either "Political Science" or "Physics.".
+/**
+ * @description       : 
+ * @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+ * @group             : 
+ * @last modified on  : 10-03-2024
+ * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+**/
+public with sharing class SeniorStudentswithSub {
+    public SeniorStudentswithSub() {
 
-public class SeniorStudentswithSub {
+    }
+    
 	public static list<String> cal(){
         List<String> students = new List<String>();
         students.add('John Doe, 20, Sophomore, Computer Science');
